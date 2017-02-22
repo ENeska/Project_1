@@ -64,20 +64,17 @@ nav li {
 
 }
 
-
 @media (max-width: 869px) and (min-width: 570px) {
     .portfolio_img {
         display: flex;
         flex-flow: row wrap;
         justify-content: space-around;
-
     }
 
     .img {
         margin-top: 10px;
         margin-right: 10px;
     }
-
 
 }
 
@@ -104,11 +101,6 @@ nav li {
         margin-right: 10px;
     }
 }
-
-
-
-
-
 
 @media screen and (min-width: 768px) {
     nav ul {
@@ -220,9 +212,6 @@ nav li {
 
 }
 
-
-
-
 .container > nav > ul >li > a {
     text-decoration: none;
     color: white;
@@ -245,17 +234,12 @@ nav li {
     margin-bottom: 10px;
 }
 
-
-
-
 .img {
     border-radius: 50%;
     width: 160px;
     height: 160px;
     background-size: 100%;
-
 }
-
 
 .article_container {
     background: #2eb398;
@@ -268,16 +252,7 @@ nav li {
     padding: 20px;
     display: flex;
     flex-flow: row wrap;
-
 }
-.circle_img {
-}
-
-
-.describe {
-
-}
-
 
 #hex_img {
      background-image: url('../img/people.png');
@@ -286,7 +261,6 @@ nav li {
      height: 200px;
      background-position: -20px;
  }
-
 
 .text > h1  {
     color: #dcfff8;
@@ -306,8 +280,6 @@ nav li {
     text-align: justify;
     line-height: 1.7em;
 }
-
-
 
 .social {
     text-align: right;
@@ -337,7 +309,6 @@ nav li {
 
 .contact_container {
     background: #323232;
-
 }
 
 .contact {
@@ -444,7 +415,6 @@ nav li {
     height: 13px;
 }
 
-
 .contact_group > ul > li {
     padding-bottom: 10px;
     color: #bebebe;
@@ -462,9 +432,9 @@ nav li {
     font-size: 16px;
     font-weight: 500;
     font-family: 'lato', sans-serif;
-    }
+}
 
-    .send:hover {
+.send:hover {
     background: #dcfff8;
     color: #2eb398;
     border: 0;
