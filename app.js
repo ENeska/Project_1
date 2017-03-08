@@ -1,5 +1,5 @@
-
 // check input - Username
+
 function checkUsername() {
 
     var userText = el.value;
@@ -24,6 +24,7 @@ el.addEventListener('blur', checkUsername, false);
 el.addEventListener('focus', usernamePrompt, false);
 
 // Check input - E-mail
+
 function checkMail() {
 
     var regex = /^[a-zA-Z0-9._-]+@([a-zA-Z0-9.-]+\.)+[a-zA-Z0-9.-]{2,4}$/;
@@ -62,6 +63,3 @@ var el3 = document.getElementById('input2');
 var elMsg3 = document.getElementById('message');
 
 el3.addEventListener('keyup', check, false);
-
-
-

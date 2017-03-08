@@ -123,6 +123,7 @@ nav li {
     .triangle {
         position: absolute;
         top: 50px;
+        height: 50px;
         left: 0;
         right: 0;
         bottom: 0;
@@ -232,12 +233,21 @@ nav li {
     margin-bottom: 10px;
 }
 
+
 .img {
     border-radius: 50%;
     width: 160px;
     height: 160px;
     background-size: 100%;
+    filter: grayscale(0.5);
+    transition-duration: 0.5s;
 }
+
+.img:hover {
+    filter: saturate(1.2);
+    background-size: 105%;
+}
+
 
 .article_container {
     background: #2eb398;
@@ -365,7 +375,6 @@ nav li {
     height: 200px;
     background: #454545;
     border: 0;
-    color: #bebebe;
     padding-left: 10px;
     padding-top: 10px;
     font-size: 14px;
@@ -489,13 +498,51 @@ nav li {
 
 .foot  {
     background: #222222;
-    margin: 0;
+    margin:0;
+    padding: 5px 0;
+    height: 50px;
  }
 
 footer > p {
     color: #898989;
     font-family: 'Lato', sans-serif;
     letter-spacing: 0.15em;
-    font-size: 10px;
+    font-size: 12px;
     text-align: center;
 }
+
+#popup {
+visibility: hidden;
+
+}
+
+
+.popupFog {
+    position: fixed;
+    top: 0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.popupWindow {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 300px;
+    width: 400px;
+    max-width: 70%;
+    max-height: 70%;
+    background: #2eb398;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
