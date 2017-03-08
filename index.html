@@ -106,7 +106,7 @@
                     <div class="text">
                             <h1>Smith Anderson</h1>
                             <h2>Illustrator & Character Designer</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna. Integer gravida, diam congue molestie fringilla, elit odio rhoncus turpis, ac dictum libero elit vel metus. Morbi egestas sit amet velit eget venenatis. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna. Integer gravida, diam congue molestie fringilla, elit odio rhoncus turpis, ac dictum libero elit vel metus. Morbi egestas sit amet velit eget venenatis. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna. Integer gravida, diam congue molestie fringilla, elit odio rhoncus turpis, ac dictum libero elit vel metus. Morbi egestas sit amet velit eget venenatis. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna</p>
                     </div>
 
                     <div class="social">
@@ -134,10 +134,20 @@
                     <h2>In order to get in touch use the contact form below:</h2>
 
                     <form action="#">
-                        <input type="text" name="name" class="input1" placeholder="Name (Required)"/></br>
-                        <input type="text" name="email" class="input1" placeholder="Email (Required)"/></br>
-                        <input type="text" name="subject" class="input1" placeholder="Subject"/></br>
-                        <textarea type="text" name="name" class="input2">Write your message here...</textarea>
+                        <input type="text" name="name" id='username' autocomplete="off" class="input1" placeholder="Name (Required)"/></br>
+                        <p class="feedback" id="username_fed"></p>
+                        <input type="text" name="email" id="mailInput" autocomplete="off" class="input1" placeholder="Email (Required)"/></br>
+                        <p class="feedback" id="mailFeedback"></p>
+                        <input type="text" name="subject" class="input1" autocomplete="off" list="subject" placeholder="Subject"/></br>
+                        <datalist id="subject">
+                            <option value="Buy graphics">
+                            <option value="Partnerships">
+                            <option value="Information">
+                            <option value="Other">
+                        </datalist>
+                        <p class="feedback"></p>
+                        <textarea type="text"maxlength="700" name="name" id="input2" placeholder="Write your message here..."></textarea>
+                        <p class="feedback" id="message"></p>
                         <input type="submit" value="Send" class="send"/>
                     </form>
                 </div>
@@ -164,6 +174,6 @@
                 <p>@ Copyright 2017 by PSDchat</p>
             </footer>
         </div>
-
+    <script src="app.js" type="text/javascript" rel="script"></script>
     </body>
 </html>
