@@ -1,2 +1,6 @@
 # Project_1 (PSD to HTML)
-Jeden z pierwszych projektów zakodowany z pliku PSD pobranego 
+Projekt zakodowany na podstawie projektu w PSD pobranego ze strony: www.psdchat.com/ 
+
+Wykostano następujące technologie:
+<li>
+<ul>HTML5, </ul>
