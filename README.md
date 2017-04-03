@@ -1,6 +1,10 @@
-# Project_1 (PSD to HTML)
-Projekt zakodowany na podstawie projektu w PSD pobranego ze strony: www.psdchat.com/ 
+# Project_1 
+(PSD to HTML)<br><br>
+Strona wykonana na podstawie projektu PSD pobranego ze strony: www.psdchat.com/.
 
-Wykostano następujące technologie:
-<li>
-<ul>HTML5, </ul>
+Wykorzystano następujące technologie:
+<ul>
+<li>HTML5, </li>
+<li>CSS3, </li>
+<li>JavaScript. </li>
+</ul>
